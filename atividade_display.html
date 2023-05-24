@@ -8,31 +8,65 @@
     <style>
         div{
         display:inline-block;
-        margin: 5px solid gray;
-        padding: 5px;
         border-collapse: 1px solid gray;
-        background-color: gray;
-        width: 100px;
-        height: 100px;
+        background-color: lightgray;
+        width: auto;
+        height: auto;
+        text-align: left;
+        padding: 4px;
         font-family:'Poppins', sans-serif;
         
     }
-    
+
+    .divblock{
+        display: block;
+        background-color: lightgray;
+        
+        
+    }
+    body{
+        font-family: 'poppins', sans-serif;
+    }
+    .muda:hover{
+        color:white;
+        background-color: lightgreen;
+        transition: 0.5s;
+        opacity: 1.0;
+        cursor: pointer;
+    }
+    .outra{
+        display: inline;
+        background-color: lightgray;
+    }
+    .mudaoutro{
+        width: 60px;
+        height: 60px;
+
+    }
+
+   
+   
     </style>
     
 </head>
 
 <body>
-    
-        <ul>
-            <div><li>Home</li></div>
-            <div><li>Produtos</li></div>
-            <div><li>Serviços</li></div>
-            <div><li>Sobre</li></div>
-            <div><li>Contato</li></div>
-        </ul>
-    
-    
+    <div class="divblock">
+        <div class="muda">Home</div>
+        <div class="muda">Produtos</div>
+        <div class="muda">Serviços</div>
+        <div class="muda">Sobre</div>
+        <div class="muda">Contato</div>
+    </div>
+    <br>
+    <div class="outra">
+        <div class="mudaouto">Home</div>
+        <div class="mudaoutro">Produtos</div>
+        <div class="mudaoutro">Serviços</div>
+        <div class="mudaoutro">Sobre</div>
+        <div class="mudaoutro">Contato</div>
+
+    </div>
 </body>
 
 </html>
