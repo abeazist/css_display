@@ -14,7 +14,7 @@
         height: auto;
         text-align: left;
         padding: 4px;
-        font-family:'Poppins', sans-serif;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         
     }
 
@@ -24,25 +24,31 @@
         
         
     }
-    body{
-        font-family: 'poppins', sans-serif;
-    }
     .muda:hover{
         color:white;
-        background-color: lightgreen;
+        background-color: rgb(73, 204, 73);
         transition: 0.5s;
         opacity: 1.0;
         cursor: pointer;
     }
-    .outra{
-        display: inline;
-        background-color: lightgray;
+    .outra:hover{
+        color:white;
+        background-color: rgb(73, 204, 73);
+        transition: 0.5s;
+        opacity: 1.0;
+        cursor: pointer;
+        
+    
     }
-    .mudaoutro{
-        width: 60px;
-        height: 60px;
+    .aisla{
+        display:block;
+        width: 250px;
+        padding: 10px;
+        background-color: lightgray;
 
     }
+
+    
 
    
    
@@ -51,22 +57,26 @@
 </head>
 
 <body>
-    <div class="divblock">
-        <div class="muda">Home</div>
-        <div class="muda">Produtos</div>
-        <div class="muda">Serviços</div>
-        <div class="muda">Sobre</div>
-        <div class="muda">Contato</div>
-    </div>
+    <p> <div class="divblock">
+            <div class="muda">Home</div>
+            <div class="muda">Produtos</div>
+            <div class="muda">Serviços</div>
+            <div class="muda">Sobre</div>
+            <div class="muda">Contato</div>
+        </div>
+    </p>
+   
     <br>
-    <div class="outra">
-        <div class="mudaouto">Home</div>
-        <div class="mudaoutro">Produtos</div>
-        <div class="mudaoutro">Serviços</div>
-        <div class="mudaoutro">Sobre</div>
-        <div class="mudaoutro">Contato</div>
-
-    </div>
+    <p>
+        <div class="aisla">
+            <div class="outra">Home</div>
+            <div class="outra">Produtos</div>
+            <div class="outra">Serviços</div>
+            <div class="outra">Sobre</div>
+            <div class="outra">Contato</div>
+        </div>
+        
+    </p>
 </body>
 
 </html>
